@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "graphql": "^16.9.0",
+    "graphql-helix": "^1.13.0",
+    "kcors": "^2.2.2",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa__router": "^12.0.4",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
